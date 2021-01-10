@@ -15,45 +15,45 @@ function setup(){
 
     //Layer 1 Ground 1
     
-    block1 = new Block(540,470,40,50);
-    block2 = new Block(580,470,40,50);
-    block3 = new Block(620,470,40,50);
-    block4 = new Block(660,470,40,50);
-    block5 = new Block(700,470,40,50);
-    block6 = new Block(740,470,40,50);
-    block7 = new Block(780,470,40,50);
+    block1 = new Block1(540,470,40,50);
+    block2 = new Block1(580,470,40,50);
+    block3 = new Block1(620,470,40,50);
+    block4 = new Block1(660,470,40,50);
+    block5 = new Block1(700,470,40,50);
+    block6 = new Block1(740,470,40,50);
+    block7 = new Block1(780,470,40,50);
 
     //Layer 2 Ground 1
-    block8 = new Block(580,410,40,50);
-    block9 = new Block(620,410,40,50);
-    block10 = new Block(660,410,40,50);
-    block11 = new Block(700,410,40,50);
-    block12 = new Block(740,410,40,50);
+    block8 = new Block2(580,410,40,50);
+    block9 = new Block2(620,410,40,50);
+    block10 = new Block2(660,410,40,50);
+    block11 = new Block2(700,410,40,50);
+    block12 = new Block2(740,410,40,50);
 
     //Layer 3 Ground 1
-    block13 = new Block(620,350,40,50);
-    block14 = new Block(660,350,40,50);
-    block15 = new Block(700,350,40,50);
+    block13 = new Block3(620,360,40,50);
+    block14 = new Block3(660,360,40,50);
+    block15 = new Block3(700,360,40,50);
 
     //Layer 4 Ground 1
-    block16 = new Block(660,290,40,50);
+    block16 = new Block4(660,310,40,50);
 
     //Layer 1 Ground 2
-    block17 = new Block(1000,380,40,50);
-    block18 = new Block(1040,380,40,50);
-    block19 = new Block(1080,380,40,50);
-    block20 = new Block(1120,380,40,50);
-    block21 = new Block(1160,380,40,50);
+    block17 = new Block1(1001,380,40,50);
+    block18 = new Block1(1040,380,40,50);
+    block19 = new Block1(1081,380,40,50);
+    block20 = new Block1(1120,380,40,50);
+    block21 = new Block1(1159,380,40,50);
 
     //Layer 2 Ground 2
-    block22 = new Block(1040,320,40,50);
-    block23 = new Block(1080,320,40,50);
-    block24 = new Block(1120,320,40,50);
+    block22 = new Block2(1040,320,40,50);
+    block23 = new Block2(1080,320,40,50);
+    block24 = new Block2(1120,320,40,50);
 
     //Layer 3 Ground 2
-    block25 = new Block(1080,260,40,50);
+    block25 = new Block3(1080,260,40,50);
 
-    polygon = new Polygon(150,300,80,80);
+    polygon = new Polygon(200,300,80,80);
 
     launcher = new Launcher(polygon.body, {x:200,y:300});
 
