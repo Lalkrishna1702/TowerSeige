@@ -1,7 +1,8 @@
 class Polygon{
     constructor(x,y,width,height){
         var options = {
-            isStatic : false
+            isStatic : false,
+            density:50
         }
 
         this.body = Bodies.rectangle(x, y, width, height, options);
